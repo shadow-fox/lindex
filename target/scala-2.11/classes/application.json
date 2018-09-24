@@ -1,0 +1,25 @@
+{
+  "datasets" : [
+    {
+      "yago" : {
+        "labels" : "yagoLabels.tsv",
+        "facts" : "yagoFacts.tsv",
+        "datefacts" : "yagoDateFacts.tsv",
+        "schema" : "yagoSchema.tsv",
+        "taxonomy" : "yagoTaxonomy.tsv",
+        "path" : "/Users/pbehera/Sandbox/oss/data/yago3/tsv/"
+      }
+    }
+  ],
+  "stream" : [
+    {
+      "spark" : {
+        "name" : "KB App",
+        "url" : "local[*]",
+        "memory" : "4G",
+        "memoryFraction" : "0.5",
+        "storageFraction" : "0.9"
+      }
+    }
+  ]
+}
